@@ -6,7 +6,7 @@ from time import sleep
 from re import findall
 
 startDelay = 5
-keyDelay = 0.2
+keyDelay = 0.15
 
 def readNotes(filename):
     try:
