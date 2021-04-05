@@ -1,6 +1,5 @@
 
 from pynput import keyboard
-from os import system
 from sys import exit
 from ctypes import windll
 from time import sleep
@@ -19,7 +18,7 @@ def readNotes(filename):
 def startPlaying(notes):
     kb = keyboard.Controller()
     print(f"Lyre playing will start in {startDelay} seconds! Open the game and enjoy!")
-    print("To stop script press Ctrl+C in console")
+    print("To stop the script press Ctrl+C in console")
     sleep(startDelay)
     for i in notes:
         for j in i:
@@ -31,8 +30,7 @@ def startPlaying(notes):
 
 def main():
     if not windll.shell32.IsUserAnAdmin():
-        print("Please restart the script with Admin rights!")
-        system("pause")
+        print("Please restart the script with Administrative rights!")
         return
     notes = readNotes("notes.txt")
     startPlaying(notes)
