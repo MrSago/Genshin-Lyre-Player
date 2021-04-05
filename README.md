@@ -9,7 +9,7 @@
 ***
 
 ### How to use:
-1. Put the notes in file __notes.txt__ (_see example_)
+1. Put the notes in file __notes.txt__ (_see example_)  
     1.1. Note-keys can contain __any separators__
     1.2. In a __row__ note-keys pressed at the __same time__
 2. Run __start.bat__ with __Administrative rights__
