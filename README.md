@@ -9,11 +9,12 @@
 ***
 
 ### How to use:
-1. Put the notes in file __notes.txt__ (_see example_)  
-    1.1. Note-keys can contain __any separators__  
-    1.2. In a __row__ note-keys pressed at the __same time__
-2. Run __start.bat__ with __Administrative rights__
-3. In __5 seconds__ open Genshin Impact window and enjoy!
+1. Open __lyre__ in game
+2. Put the notes in file __notes.txt__ (_see example_)  
+    2.1. Note-keys can contain __any separators__  
+    2.2. In a __row__ note-keys pressed at the __same time__
+3. Run __start.bat__ with __Administrative rights__
+4. In __5 seconds__ open Genshin Impact window and enjoy!
 
 ***
 
