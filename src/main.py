@@ -17,7 +17,7 @@ def readNotes(filename):
 
 def startPlaying(notes):
     kb = keyboard.Controller()
-    print(f"Lyre playing will start in {startDelay} seconds! Open the game and enjoy!")
+    print(f"Lyre playing will start in {startDelay} seconds! Open the game window and enjoy!")
     print("To stop the script press Ctrl+C in console")
     sleep(startDelay)
     for i in notes:
