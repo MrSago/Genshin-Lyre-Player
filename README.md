@@ -10,7 +10,7 @@
 
 ### How to use:
 1. Open __lyre__ in game
-2. Put the notes in file __notes.txt__ (_see example_)  
+2. Put the notes in file __notes.txt__ (_see examples_)  
     2.1. Note-keys can contain __any separators__  
     2.2. In a __row__ note-keys pressed at the __same time__
 3. Run __start.bat__ with __Administrative rights__
