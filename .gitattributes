@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
+
+.gitattributes          export-ignore
+.gitignore              export-ignore
+*README.md              export-ignore
+
 * text=auto
+
+# GitHub
+.gitattributes          text
+.gitignore              text
+*README.md              text
+
+# Source files
+*.py                    text
+
+# Input files
+*.txt                   text
+
