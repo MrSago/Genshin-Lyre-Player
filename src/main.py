@@ -13,7 +13,7 @@ def readNotes(filename):
         with open(filename, "r") as f:
             return findall(r"\w+", f.read().lower())
     except IOError:
-        exit("Error read notes.txt")
+        exit(f"Error read file {filename}")
 
 def startPlaying(notes):
     kb = keyboard.Controller()
